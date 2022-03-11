@@ -1,4 +1,30 @@
-.book-info-div {
+.book-info-pozition {
   margin-block: 30px;
   margin-inline: 2em;
+}
+.film-info-container {
+  margin: auto;
+  max-width: 50%;
+  margin-block: 10px;
+  border: 2px solid rgba(48, 44, 44, 0.837);
+  padding-block: 20px;
+  padding-inline: 4em;
+}
+.film-info-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2em;
+  margin-block: 10px;
+}
+.film-info-column2 {
+  background-color: rgba(17, 17, 17, 0.775);
+  color: rgb(240, 241, 241);
+  padding-block: 4px;
+  padding-inline: 2em;
+}
+.film-search-submit {
+  background-color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+  padding-block: 8px;
+  padding-inline: 1em;
 }
